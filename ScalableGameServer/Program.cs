@@ -10,6 +10,8 @@ namespace ScalableGameServer
     {
         static void Main(string[] args)
         {
+            IOCPServer server = new IOCPServer();
+            server.Start();
         }
     }
 }
